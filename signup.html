@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email and Password Validation</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/signup.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container">
+        <header>Signup</header>
+        <form method="POST" action="signup.php">
+
+            <input type="text" name="username" placeholder="Username" required>
+          
+            <input type="email" name="email" placeholder="Email" required>
+          
+            <input type="password" name="password" placeholder="Password" required>
+          
+            <input type="submit" name="submit" value="Sign Up">
+          <h3>Already have an account? <a href="login.html">Log in</a></h3>
+          </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/form.js"></script>
+</body>
+</html>

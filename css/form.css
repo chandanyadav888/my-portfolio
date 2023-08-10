@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply the Poppins font from Google Fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Center the form vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.signup-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.signup-link h3 {
+  font-size: 16px;
+  color: #555;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}

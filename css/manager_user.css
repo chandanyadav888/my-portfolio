@@ -1,0 +1,65 @@
+/* CSS for manage_users.php */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table td.actions a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+table td.actions a:hover {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #555;
+}

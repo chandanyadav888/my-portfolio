@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email and Password Validation</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/form.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>Login</header>
+      <form method="POST" action="login.php">
+
+        <div class="form-group">
+          <label>Email address</label>
+          <input name="email" type="email" class="form-control" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input name="password" type="password" class="form-control" placeholder="Password">
+        </div>  
+        <button type="submit" class="btn btn-primary">Login</button>
+        <!-- <a href="register.html" class="btn btn-secondary">Register</a> -->
+      <div class="signup-link">
+        <h3>Don't have an account?<a href="signup.html">Register</a></h3>
+      </div>
+      </form>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/login.js"></script>
+  </body>
+</html>
